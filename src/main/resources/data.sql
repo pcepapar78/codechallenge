@@ -1,0 +1,10 @@
+INSERT INTO TRANSACTIONS (id, reference, account_iban, date_transaction, amount, fee, description) VALUES (1, '12345A', 'ES9820385778983000760236', SYSDATE+1, 193.38, 3.18, 'Restaurant payment');
+INSERT INTO TRANSACTIONS (id, reference, account_iban, date_transaction, amount, fee, description) VALUES (2, '12345B', 'ES9820385778983000760236', SYSDATE-2, 130.73, 2.14, 'Electricity bil payment');
+INSERT INTO TRANSACTIONS (id, reference, account_iban, date_transaction, amount, fee, description) VALUES (3, '12345C', 'ES9820385778983000760236', SYSDATE-3, 89.91, 1.47, 'Community payment');
+INSERT INTO TRANSACTIONS (id, reference, account_iban, date_transaction, amount, fee, description) VALUES (4, '12345D', 'ES9820385778983000760236', SYSDATE+4, 58.52, 0.96, 'Water bil payment');
+INSERT INTO TRANSACTIONS (id, reference, account_iban, date_transaction, amount, fee, description) VALUES (5, '12345E', 'ES9820385778983000760236', SYSDATE-5, 355.85, 5.85, 'IBI Tax payment');
+INSERT INTO TRANSACTIONS (id, reference, account_iban, date_transaction, amount, fee, description) VALUES (6, '12345F', 'ES9820385888983000760236', SYSDATE, 67.45, 1.10, 'Purchase in commerce');
+INSERT INTO TRANSACTIONS (id, reference, account_iban, date_transaction, amount, fee, description) VALUES (7, '12345G', 'ES9820385888983000760236', SYSDATE-7, 36.65, 0.60, 'Health insurance payment');
+INSERT INTO TRANSACTIONS (id, reference, account_iban, date_transaction, amount, fee, description) VALUES (8, '12345H', 'ES9820385888983000760236', SYSDATE-8, 65.71, 1.08, 'Transport payment');
+INSERT INTO TRANSACTIONS (id, reference, account_iban, date_transaction, amount, fee, description) VALUES (9, '12345I', 'ES9820385888983000760236', SYSDATE, 22.39, 0.36, 'Taxi payment');
+INSERT INTO TRANSACTIONS (id, reference, account_iban, date_transaction, amount, fee, description) VALUES (10, '12345J', 'ES9820385888983000760236', SYSDATE-10, 658.88, 10.83, 'Travel payment');
