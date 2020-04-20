@@ -1,6 +1,6 @@
 # Bank - Microservice
 
-Projecto demo de Microservicio para alta y consulta de transacciones de banco
+Project demo de Microservicio para alta y consulta de transacciones de banco
 
 # Entorno de Desarrollo
 
