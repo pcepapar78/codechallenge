@@ -19,7 +19,7 @@ Projecto demo de Microservicio para alta y consulta de transacciones de banco
 
 1.- Desde linea de comando:
 
-	java -jar bank\target\bank-0.0.1-SNAPSHOT.jar
+	java -jar target\bank-0.0.1-SNAPSHOT.jar
 	
 2.- Desde eclipse:
 
@@ -35,6 +35,8 @@ Projecto demo de Microservicio para alta y consulta de transacciones de banco
 
 ```
 Database: bank
+Driver Class: org.h2.Driver
+JDBC URL: jdbc:h2:./database/bank
 User/Password: demo
 ```
 > Los ficheros schema.sql y data.sql contienen las sentecias SQL para la creación de la tabla TRANSACTIONS y 10 registros que se dan de alta al ejecutar la aplicación.
